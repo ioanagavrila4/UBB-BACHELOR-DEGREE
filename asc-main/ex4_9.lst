@@ -1,0 +1,52 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  
+    11                                  ; a,b,c - byte, d - word
+    12                                  segment data use32 class=data
+    13 00000000 02                          a db 2
+    14 00000001 06                          b db 6
+    15 00000002 02                          c db 2
+    16 00000003 3200                        d dw 50
+    17                                      e equ 10
+    18                                      f equ 2
+    19                                      g equ 3
+    20                                      h equ 20
+    21                                  
+    22                                  ; our code starts here
+    23                                  segment code use32 class=code
+    24                                      start:
+    25                                          ; 3*[20*(b-a+2)-10*c]+2*(d-3)
+    26 00000000 A0[01000000]                    mov al, [b]
+    27 00000005 2A05[00000000]                  sub al, [a]
+    28 0000000B 0402                            add al, f
+    29                                          mul h
+    29          ******************       error: invalid combination of opcode and operands
+    30 0000000D 88C3                            mov bl, al
+    31 0000000F A0[02000000]                    mov al, [c]
+    32                                          mul e
+    32          ******************       error: invalid combination of opcode and operands
+    33 00000014 00D8                            add al, bl
+    34                                          mul g
+    34          ******************       error: invalid combination of opcode and operands
+    35 00000016 88C3                            mov bl, al
+    36 00000018 66B80000                        mov ax, 0
+    37 0000001C 66A1[03000000]                  mov ax, [d]
+    38 00000022 6683E803                        sub ax, g
+    39                                          mul f
+    39          ******************       error: invalid combination of opcode and operands
+    40 00000026 B700                            mov bh, 0
+    41 00000028 6601D8                          add ax, bx
+    42                                          mul g
+    42          ******************       error: invalid combination of opcode and operands
+    43                                          
+    44                                          
+    45                                          ; exit(0)
+    46 0000002B 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    47 0000002D FF15[00000000]                  call    [exit]       ; call exit to terminate the program
