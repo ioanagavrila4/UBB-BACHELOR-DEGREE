@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TES2_ANTRENAMENT_GITHUB_SUBJECT",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "TES2_ANTRENAMENT_GITHUB_SUBJECT::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TES2_ANTRENAMENT_GITHUB_SUBJECT-Debug-ab60f47161cc7d3a9567.json",
+					"name" : "TES2_ANTRENAMENT_GITHUB_SUBJECT",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/ioanagavrila/CLionProjects/TES2_ANTRENAMENT_GITHUB_SUBJECT/cmake-build-debug",
+		"source" : "/Users/ioanagavrila/CLionProjects/TES2_ANTRENAMENT_GITHUB_SUBJECT"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

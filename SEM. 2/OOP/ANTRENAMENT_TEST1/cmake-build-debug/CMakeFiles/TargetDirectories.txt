@@ -1,0 +1,3 @@
+/Users/ioanagavrila/CLionProjects/ANTRENAMENT_TEST1/cmake-build-debug/CMakeFiles/ANTRENAMENT_TEST1.dir
+/Users/ioanagavrila/CLionProjects/ANTRENAMENT_TEST1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ioanagavrila/CLionProjects/ANTRENAMENT_TEST1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

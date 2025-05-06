@@ -1,0 +1,12 @@
+Refrigerator: APPLIANCE: 1
+ with the electricity usage class: A and having a freezer 
+
+Refrigerator: APPLIANCE: 2
+ with the electricity usage class: A++ and not having a freezer 
+
+Refrigerator: APPLIANCE: 3
+ with the consumed electricty in one hour: 12.300000
+
+Refrigerator: APPLIANCE: 4
+ with the consumed electricty in one hour: 44.400000
+

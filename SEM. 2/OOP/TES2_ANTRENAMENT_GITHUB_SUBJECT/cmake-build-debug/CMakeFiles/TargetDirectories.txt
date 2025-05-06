@@ -1,0 +1,3 @@
+/Users/ioanagavrila/CLionProjects/TES2_ANTRENAMENT_GITHUB_SUBJECT/cmake-build-debug/CMakeFiles/TES2_ANTRENAMENT_GITHUB_SUBJECT.dir
+/Users/ioanagavrila/CLionProjects/TES2_ANTRENAMENT_GITHUB_SUBJECT/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ioanagavrila/CLionProjects/TES2_ANTRENAMENT_GITHUB_SUBJECT/cmake-build-debug/CMakeFiles/rebuild_cache.dir

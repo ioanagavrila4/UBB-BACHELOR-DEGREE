@@ -1,0 +1,3 @@
+/Users/ioanagavrila/CLionProjects/TEST2_ANTRENAMENT_OLD_BUILDINGS/cmake-build-debug/CMakeFiles/TEST2_ANTRENAMENT_OLD_BUILDINGS.dir
+/Users/ioanagavrila/CLionProjects/TEST2_ANTRENAMENT_OLD_BUILDINGS/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ioanagavrila/CLionProjects/TEST2_ANTRENAMENT_OLD_BUILDINGS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
