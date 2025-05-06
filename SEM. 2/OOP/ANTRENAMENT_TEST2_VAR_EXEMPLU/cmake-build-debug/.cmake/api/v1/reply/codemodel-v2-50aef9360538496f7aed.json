@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ANTRENAMENT_TEST2_VAR_EXEMPLU",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ANTRENAMENT_TEST2_VAR_EXEMPLU::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ANTRENAMENT_TEST2_VAR_EXEMPLU-Debug-8a3d53450dbf0d68bdef.json",
+					"name" : "ANTRENAMENT_TEST2_VAR_EXEMPLU",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/ioanagavrila/CLionProjects/ANTRENAMENT_TEST2_VAR_EXEMPLU/cmake-build-debug",
+		"source" : "/Users/ioanagavrila/CLionProjects/ANTRENAMENT_TEST2_VAR_EXEMPLU"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
