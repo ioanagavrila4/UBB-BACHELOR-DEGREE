@@ -1,0 +1,5 @@
+/Users/ioanagavrila/CLionProjects/EXAMEN_SCRIS_CODE_REVISION/cmake-build-debug/CMakeFiles/EXAMEN_SCRIS_CODE_REVISION.dir
+/Users/ioanagavrila/CLionProjects/EXAMEN_SCRIS_CODE_REVISION/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ioanagavrila/CLionProjects/EXAMEN_SCRIS_CODE_REVISION/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ioanagavrila/CLionProjects/EXAMEN_SCRIS_CODE_REVISION/cmake-build-debug/CMakeFiles/EXAMEN_SCRIS_CODE_REVISION_autogen_timestamp_deps.dir
+/Users/ioanagavrila/CLionProjects/EXAMEN_SCRIS_CODE_REVISION/cmake-build-debug/CMakeFiles/EXAMEN_SCRIS_CODE_REVISION_autogen.dir

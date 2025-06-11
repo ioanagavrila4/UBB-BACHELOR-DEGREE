@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "EXAMEN_SCRIS_EVENT_PLANNER",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "EXAMEN_SCRIS_EVENT_PLANNER::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EXAMEN_SCRIS_EVENT_PLANNER-Debug-bcdc9dcc766fa651e89a.json",
+					"name" : "EXAMEN_SCRIS_EVENT_PLANNER",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EXAMEN_SCRIS_EVENT_PLANNER_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EXAMEN_SCRIS_EVENT_PLANNER_autogen-Debug-508b4b85599b8a8bf778.json",
+					"name" : "EXAMEN_SCRIS_EVENT_PLANNER_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EXAMEN_SCRIS_EVENT_PLANNER_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EXAMEN_SCRIS_EVENT_PLANNER_autogen_timestamp_deps-Debug-c8ea85085b9e527e11b3.json",
+					"name" : "EXAMEN_SCRIS_EVENT_PLANNER_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/ioanagavrila/CLionProjects/EXAMEN_SCRIS_EVENT_PLANNER/cmake-build-debug",
+		"source" : "/Users/ioanagavrila/CLionProjects/EXAMEN_SCRIS_EVENT_PLANNER"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
