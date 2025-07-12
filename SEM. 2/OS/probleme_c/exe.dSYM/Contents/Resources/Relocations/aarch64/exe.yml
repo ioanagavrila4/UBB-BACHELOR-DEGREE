@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     exe
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _child_handler, symObjAddr: 0x0, symBinAddr: 0x100003C70, symSize: 0x24 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _pid, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0x5D, size: 0x8, addend: 0x0, symName: _child_handler, symObjAddr: 0x0, symBinAddr: 0x100003C70, symSize: 0x24 }
+  - { offsetInCU: 0x81, offset: 0x81, size: 0x8, addend: 0x0, symName: _parent_handler, symObjAddr: 0x24, symBinAddr: 0x100003C94, symSize: 0x40 }
+  - { offsetInCU: 0xA5, offset: 0xA5, size: 0x8, addend: 0x0, symName: _zombie_handler, symObjAddr: 0x64, symBinAddr: 0x100003CD4, symSize: 0x30 }
+  - { offsetInCU: 0xC9, offset: 0xC9, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x94, symBinAddr: 0x100003D04, symSize: 0x148 }
+...

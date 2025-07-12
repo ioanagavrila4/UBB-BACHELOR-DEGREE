@@ -1,0 +1,2 @@
+Daţi trei expresii regulare care acceptă orice linie care conţine cel puţin două vocale dar nicio cifră.
+
